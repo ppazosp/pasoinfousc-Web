@@ -2251,7 +2251,7 @@ p {
   background-image: url("images/party_bc.jpg");
   background-position: 50%;
   background-repeat: repeat;
-  padding: 80px 10px 90px;
+  padding: 80px 10px 950px;
   position: relative;
 }
 
@@ -2308,7 +2308,7 @@ p {
   font-family: IBM Plex Mono, sans-serif;
   font-size: 25px;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 32px;
 }
 
 .hollow-button {
