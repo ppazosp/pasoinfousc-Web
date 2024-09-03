@@ -196,7 +196,11 @@ td, th {
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: url('./images/menu.png');
+}
+
+.w-icon-nav-menu.active:before {
+  content: url('./images/menu_open.png');
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
@@ -2206,7 +2210,7 @@ p {
 }
 
 .navigation-link {
-  color: #676770;
+  color: #185cfe;
   font-family: IBM Plex Mono, sans-serif;
   transition: all .3s ease-in-out;
 }
@@ -2679,7 +2683,7 @@ p {
   }
 
   .hamburger-button.w--open, .navigation-menu {
-    background-color: #3b99d9;
+    background-color: #185cfe;
   }
 
   .hero-section.centered {
@@ -2761,7 +2765,7 @@ p {
   }
 
   .hero-section.centered {
-    padding-top: 400px;
+    padding-top: 300px;
     padding-bottom: 400px;
   }
 

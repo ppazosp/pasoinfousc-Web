@@ -12233,6 +12233,10 @@
     }
   });
 
+  document.querySelector('.w-icon-nav-menu').addEventListener('click', function() {
+    this.classList.toggle('active');
+  });
+
   // <stdin>
   require_webflow_brand();
   require_webflow_edit();
